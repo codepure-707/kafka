@@ -42,7 +42,7 @@ RUN mkdir $KAFKA_DIR; \
     /app/native_command.sh $NATIVE_IMAGE_PATH $NATIVE_CONFIGS_DIR $KAFKA_LIBS_DIR $TARGET_PATH
 
 
-FROM alpine:latest
+FROM alpine:3.23.3
 
 EXPOSE 9092
 
